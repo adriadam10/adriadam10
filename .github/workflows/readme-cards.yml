@@ -1,5 +1,6 @@
 # Regenerates the stats cards shown in the profile README. Static SVGs avoid
-# the rate-limited public github-readme-stats instance.
+# the rate-limited public github-readme-stats instance. STATS_TOKEN is a
+# read-only fine-grained PAT: GITHUB_TOKEN cannot read contribution counts.
 name: Update README cards
 
 on:
@@ -22,7 +23,7 @@ jobs:
           card: stats
           options: username=${{ github.repository_owner }}&show_icons=true&hide_border=true&disable_animations=true
           path: profile/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.STATS_TOKEN }}
 
       - name: Stats (dark)
         uses: readme-tools/github-readme-stats-action@v2
@@ -30,7 +31,7 @@ jobs:
           card: stats
           options: username=${{ github.repository_owner }}&show_icons=true&hide_border=true&disable_animations=true&theme=github_dark
           path: profile/stats-dark.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.STATS_TOKEN }}
 
       - name: Top languages (light)
         uses: readme-tools/github-readme-stats-action@v2
@@ -38,7 +39,7 @@ jobs:
           card: top-langs
           options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&hide_border=true&disable_animations=true
           path: profile/top-langs.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.STATS_TOKEN }}
 
       - name: Top languages (dark)
         uses: readme-tools/github-readme-stats-action@v2
@@ -46,7 +47,7 @@ jobs:
           card: top-langs
           options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&hide_border=true&disable_animations=true&theme=github_dark
           path: profile/top-langs-dark.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.STATS_TOKEN }}
 
       - name: Commit cards
         run: |
