@@ -2,9 +2,13 @@
 
 Computer engineer and sysadmin based in Spain. By day I keep a fleet of Linux servers, networks and self-hosted services running; by night I work on game preservation and automate whatever I touch twice.
 
+### 🏁 Featured: [mkw-recomp](https://github.com/adriadam10/mkw-recomp)
+
+My own project: a static recompilation of *Mario Kart World* (Nintendo Switch 2) into a native PC program for Linux and Windows. The game's AArch64 code is translated to C ahead of time, NVN2 is reimplemented on Vulkan and the SM86 shaders are translated to SPIR-V: no emulator, no JIT. It boots, goes through the menus and races; you bring your own dump.
+
 ### 🎮 Game preservation
 
-- [**AnyPS5**](https://github.com/boykopovar/AnyPS5): converting PS5 executables to run natively on Linux and Windows (300+ merged PRs)
+- [**AnyPS5**](https://github.com/boykopovar/AnyPS5): maintainer. Converting PS5 executables to run natively on Linux and Windows (330+ merged PRs)
 - [**SavageWindRecomp**](https://github.com/Revivedx/SavageWindRecomp): static recompilation of *The Legend of Zelda: Breath of the Wild* to PC (in progress)
 
 ### 🛠️ Also
