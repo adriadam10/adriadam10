@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Adri&#224;&#39;s GitHub Stats, Rank: A</title>
-        <desc id="descId">Total Stars Earned: 352, Total Commits  : 52162, Total PRs: 485, Total Issues: 39, Contributed to (last year): 13</desc>
+        <desc id="descId">Total Stars Earned: 472, Total Commits  : 52237, Total PRs: 486, Total Issues: 39, Contributed to (last year): 13</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 57.582488354860054;
+        stroke-dashoffset: 55.18607452149959;
       }
     }
   
@@ -169,7 +169,7 @@
         x="224.01"
         y="12.5"
         data-testid="stars"
-      >352</text>
+      >472</text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms" transform="translate(25, 0)">
@@ -199,7 +199,7 @@
         x="224.01"
         y="12.5"
         data-testid="prs"
-      >485</text>
+      >486</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
